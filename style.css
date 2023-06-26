@@ -8,5 +8,33 @@ body {
 }
 
 .header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
     display: flex;
+}
+
+.hero {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero, footer {
+    background-color: #1F2937;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+a {
+    text-decoration: none;
+    color: #1F2937;
 }
