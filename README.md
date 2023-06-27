@@ -3,6 +3,10 @@
 ### Introduction
 For this project you’ll be creating an entire web page from a design we’ll provide for you. If you’ve been following along you should have the skills you need to accomplish this, but it may not be easy!
 
+### Template
+Example of the final result of this project:
+![01-full_design.png](01-full_design.png)
+
 ## Assignment
 
 1. Download the design images and take a look at what you’re going to be creating here. [Image One (Full Design)](01-full_design.png), [Image Two (Color and Fonts)](02-color_fonts.png)
