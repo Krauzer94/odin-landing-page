@@ -17,6 +17,13 @@ body {
     display: flex;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
 .header-left {
     flex: 1;
 }
@@ -50,8 +57,11 @@ body {
     background-color: #1F2937;
 }
 
-.cards, .modal {
+.cards, .modal, .quotes {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quotes {
@@ -68,4 +78,9 @@ button {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.cards-title {
+    font-size: 36px;
+    font-weight: 700;
 }
