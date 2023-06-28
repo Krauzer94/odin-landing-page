@@ -54,11 +54,6 @@ body {
     gap: 24px;
 }
 
-.hero {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
 .hero,
 .cards,
 .modal,
@@ -71,6 +66,10 @@ body {
 }
 
 .hero {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
     background-color: #1F2937;
 }
 
@@ -89,6 +88,9 @@ body {
 
 button {
     background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+
 }
 
 a {
@@ -99,4 +101,8 @@ a {
 .cards-title {
     font-size: 36px;
     font-weight: 700;
+}
+
+img {
+    width: 550px;
 }
