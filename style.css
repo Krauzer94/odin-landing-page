@@ -1,65 +1,53 @@
 * {
     border: 1.5px solid red;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    height: 100vh;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    font-family: Roboto, 'Segoe UI';
     background-color: #1f2937;
+    margin: 0;
+    padding: 0;
 }
 
+/* Everything but header or footer */
 .container {
-    flex: 1;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2rem;
 }
 
+/* Similar things to top and bottom */
 .header,
 .footer {
     color: #E5E7EB;
-    padding: 0px 18px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    flex: 1;
+    display: flex;
+    padding: 32px 64px;
 }
 
 .header {
     font-size: 24px;
     font-weight: 600;
-    display: flex;
-    padding-bottom: 64px;
+    padding: 24px 0px 24px 64px;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 32px 64px;
-}
-
-.logo {
-    font-size: 36px;
-    font-weight: 700;
-}
-
-.header-left,
-.header-right {
-    display: flex;
-    padding: 0px 6px;
+.logo img {
+    width: 64px;
+    height: 64px;
 }
 
 .links {
     list-style: none;
     display: flex;
     gap: 24px;
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .hero,
@@ -115,7 +103,7 @@ a {
 }
 
 img {
-    width: 550px;
+    width: 400px;
 }
 
 p {
