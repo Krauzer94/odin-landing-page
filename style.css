@@ -20,9 +20,9 @@ body {
 .header,
 .footer {
     color: #E5E7EB;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
-    display: flex;
     padding: 32px 64px;
 }
 
@@ -35,17 +35,13 @@ body {
 .logo img {
     width: 64px;
     height: 64px;
+    margin-top: 6px;
 }
 
 .links {
     list-style: none;
     display: flex;
     gap: 24px;
-    list-style-position: inside;
-}
-
-ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -56,9 +52,9 @@ ul {
 .quotes {
     background-color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 64px 32px;
+    align-items: center;
+    padding: 64px;
 }
 
 .hero {
@@ -66,7 +62,8 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    padding: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 .author {
@@ -80,6 +77,8 @@ ul {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
@@ -103,9 +102,21 @@ a {
 }
 
 img {
-    width: 400px;
+    max-width: 550px;
+}
+
+.quotes p {
+    max-width: 768px;
 }
 
 p {
     padding: 12px 24px;
+    max-width: 360px;
+}
+
+b {
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
 }
