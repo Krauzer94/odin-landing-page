@@ -21,7 +21,7 @@ body {
 .footer {
     color: #E5E7EB;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 32px 64px;
 }
