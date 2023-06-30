@@ -1,5 +1,5 @@
 * {
-    border: 1.5px solid orange;
+    border: 1px solid red;
     box-sizing: border-box;
 }
 
@@ -10,13 +10,13 @@ body {
     padding: 0;
 }
 
-/* Everything but header or footer */
+/* Main body of the page */
 .container {
     display: flex;
     flex-direction: column;
 }
 
-/* Similar things to top and bottom */
+/* Everything but the body */
 .header,
 .footer {
     color: #E5E7EB;
@@ -26,6 +26,7 @@ body {
     padding: 32px 64px;
 }
 
+/* Header styling */
 .header {
     font-size: 24px;
     font-weight: 600;
@@ -46,6 +47,7 @@ body {
     padding: 0;
 }
 
+/* Batch styling */
 .hero,
 .cards,
 .modal,
@@ -57,6 +59,7 @@ body {
     padding: 64px 0px;
 }
 
+/* Individual sections */
 .hero {
     background-color: #1F2937;
     font-size: 18px;
@@ -92,7 +95,7 @@ button {
     color: white;
     border-radius: 12px;
     padding: 8px 36px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
 }
 
