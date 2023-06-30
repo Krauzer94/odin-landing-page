@@ -64,15 +64,6 @@ body {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.author {
-    font-weight: bold;
-    font-style: none;
-    font-size: 24px;
 }
 
 .quotes {
@@ -80,8 +71,6 @@ body {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    display: flex;
-    flex-direction: column;
 }
 
 .quotes p {
