@@ -81,7 +81,6 @@ body {
 }
 
 .cards {
-    border: 1px solid blue;
     align-items: center;
     flex-wrap: wrap;
     gap: 52px;
@@ -119,6 +118,10 @@ body {
 .quotes p {
     max-width: 768px;
     margin: 0;
+}
+
+.quotes b {
+    margin-top: 24px;
 }
 
 .modal {
