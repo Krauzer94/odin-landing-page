@@ -138,7 +138,9 @@ body {
     padding: 40px 120px;
 }
 
-.modal p, h2, button {
+.modal p,
+h2,
+button {
     margin: 0px 48px;
 }
 
