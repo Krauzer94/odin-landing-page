@@ -138,14 +138,16 @@ body {
     padding: 40px 120px;
 }
 
+.modal p, h2, button {
+    margin: 0px 48px;
+}
+
 .modal h2 {
     color: #F9FAF8;
-    margin: 0;
 }
 
 .modal p {
     color: #E5E7EB;
-    margin: 0;
     padding: 4px;
 }
 
