@@ -155,6 +155,10 @@ body {
     border: 4px solid white;
 }
 
+.modal-btn a {
+    color: white;
+}
+
 /* HTML semantic tags */
 button {
     background-color: #3882F6;
