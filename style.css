@@ -66,6 +66,15 @@ body {
     margin-top: -32px;
 }
 
+.hero p {
+    padding: 0;
+    margin-top: 12px;
+}
+
+.hero button {
+    margin: 0;
+}
+
 .content h1 {
     max-width: 400px;
 }
