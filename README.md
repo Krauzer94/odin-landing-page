@@ -1,5 +1,8 @@
 # Odin Landing Page
 
+* Course: [The Odin Project - Foundations Course](https://www.theodinproject.com/paths/foundations/courses/foundations)
+* Exercise: [Foundations Course - Project: Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page)
+
 ### Introduction
 For this project you’ll be creating an entire web page from a design we’ll provide for you. If you’ve been following along you should have the skills you need to accomplish this, but it may not be easy!
 
